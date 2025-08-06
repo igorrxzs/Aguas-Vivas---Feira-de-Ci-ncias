@@ -11,7 +11,7 @@
   background: url("./Img/Água\ viva-IMG.png");
   background-size: cover;
   background-position: center;
-  height: 980px;
+  height: 1450px;
   color: #ffff;
   padding: 40px 60px;
   display: flex;
@@ -21,29 +21,29 @@
 
 h1 {
   font-weight: 0;
-  font-size: 2rem;
-  margin: 0 0 40px 0;
-  max-width: 300px;
+  font-size: 80px;
+  margin: 0px 0px 300px 0px;
+  max-width: 800px;
 }
 
 .columns {
   display: flex;
-  gap: 80px;
+  gap: 250px;
 }
 
 .column {
-  max-width: 300px;
+  max-width: 850px;
   font-family: Arial, sans-serif;
 }
 
-.coli1 .number {
-  font-weight: 900;
-  font-size: 32px;
-  margin-bottom: 8px;
+.number {
+  font-weight: 500;
+  font-size:50px;
+  max-width: 1.3px;
 }
 
 .text-small {
   font-weight: 400;
-  font-size: 13px;
+  font-size: 40px;
   line-height: 1.3;
 }
