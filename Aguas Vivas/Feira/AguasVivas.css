@@ -1,19 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+.container{
+  position: center;
   background: url("./Img/Água\ viva-IMG.png");
-    background-size: cover;
-  background: cover;
+  background-size: cover;
   background-position: center;
+  height: 980px;
+  color: #ffff;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 0;
+  font-size: 2rem;
+  margin: 0 0 40px 0;
+  max-width: 300px;
+}
+
+.columns {
+  display: flex;
+  gap: 80px;
+}
+
+.column {
+  max-width: 300px;
+  font-family: Arial, sans-serif;
+}
+
+.coli1 .number {
+  font-weight: 900;
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.text-small {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.3;
 }
