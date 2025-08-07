@@ -11,7 +11,7 @@
   background: url("./Img/Água\ viva-IMG.png");
   background-size: cover;
   background-position: center;
-  height: 1450px;
+  height: 945px;
   color: #ffff;
   padding: 40px 60px;
   display: flex;
@@ -22,7 +22,7 @@
 h1 {
   font-weight: 0;
   font-size: 80px;
-  margin: 0px 0px 300px 0px;
+  margin: 0px 0px 125px 0px;
   max-width: 800px;
 }
 
@@ -33,7 +33,7 @@ h1 {
 
 .column {
   max-width: 850px;
-  font-family: Arial, sans-serif;
+  font-family: "Alegreya", serif;
 }
 
 .number {
