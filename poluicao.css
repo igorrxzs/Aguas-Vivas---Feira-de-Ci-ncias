@@ -7,56 +7,82 @@
 }
 
 body {
-  background: url('./img/IMAGEM\ -\ 1.webp') no-repeat center center fixed;
+  background: url('./img/IMAGEM - 1.webp') no-repeat center center fixed;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
 }
 
 .poluicao {
-  padding: 60px 40px;
-  background-color: rgba(0, 0, 0, 0.7);
+  padding: 60px 5%;
+  background-color: rgba(0, 0, 0, 0.75);
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .titulo {
-  font-family: "Libertinus Serif", serif;
-  font-size: 48px;
+  font-family: 'Libertinus Serif', serif;
+  font-size: 3.5rem;
   font-weight: bold;
-  text-align: left;
-  margin-bottom: 40px;
-  color: #ffffff;
-}
-
-.subtitulo {
-  font-family: "Libertinus Serif", serif;
-  font-size: 36px;
-  margin: 60px 0 20px;
-  color: #ffffff;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #22D4FD;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+  width: 100%;
 }
 
 .topicos {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+  width: 100%;
+  max-width: 1400px;
 }
 
 article {
-  background-color: rgba(255, 255, 255, 0.05);
-  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 35px 30px;
   border-left: 6px solid #22D4FD;
-  border-radius: 8px;
+  border-radius: 12px;
+  transition: transform 0.3s, background-color 0.3s;
+  backdrop-filter: blur(6px);
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+article:hover {
+  transform: scale(1.02);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 article h2 {
-  font-family: "Libertinus Serif", serif;
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-family: 'Libertinus Serif', serif;
+  font-size: 1.7rem;
+  margin-bottom: 15px;
   color: #22D4FD;
 }
 
 article p {
-  font-family: "Alegreya", serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: 'Alegreya', serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #f0f0f0;
+}
+
+@media (max-width: 480px) {
+  .titulo {
+    font-size: 2rem;
+  }
+
+  article h2 {
+    font-size: 1.3rem;
+  }
+
+  article p {
+    font-size: 1.05rem;
+  }
 }
