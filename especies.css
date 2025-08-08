@@ -8,7 +8,7 @@
 
 .container{
   position: center;
-  background: url("./Img/Água\ viva-IMG.png");
+  background: url("./img/IMAGEM\ -\ 1.webp");
   background-size: cover;
   background-position: center;
   height: 945px;
@@ -71,7 +71,7 @@ h1 {
 }
 
 body {
-  background: url('./img/Água viva-IMG.png') no-repeat center center fixed;
+  background: url('./img/IMAGEM\ -\ 1.webp') no-repeat center center fixed;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
