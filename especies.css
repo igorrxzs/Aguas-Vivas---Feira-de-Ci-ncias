@@ -20,7 +20,7 @@
 }
 
 h1 {
-  font-family: "Alegary", sans-serif; 
+  font-family: "Libertinus Serif", sans-serif; 
   font-weight: 50000;
   font-size: 80px;
   margin: 0px 0px 125px 0px;
@@ -38,7 +38,7 @@ h1 {
 }
 
 .number {
-  font-family: "Alegary", sans-serif;
+  font-family: "Libertinus Serif", sans-serif;
   font-weight: 50000;
   font-size: 90px;
   max-width: 1.3px;
@@ -84,7 +84,7 @@ body {
 }
 
 .especies__titulo {
-  font-family: "Alegary", sans-serif;
+  font-family: "Libertinus Serif", sans-serif;
   text-align: center;
   font-size: 48px;
   margin-bottom: 60px;
@@ -122,7 +122,7 @@ body {
 }
 
 .especie h2 {
-  font-family: "Alegreya", sans-serif;
+  font-family: "Libertinus Serif", sans-serif;
   font-size: 20px;
   color: #22D4FD;
   margin-bottom: 10px;
